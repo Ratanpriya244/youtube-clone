@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* upper section work */
+.upper_section {
+  display: flex;
+  flex-direction: row;
+  /* background-color: rgb(213, 231, 231); */
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.middle_section {
+  display: flex;
+}
+.search {
+  display: flex;
+}
+.search input {
+  height: 38px;
+  width: 580px;
+}
+.search img {
+  height: 38px;
+  width: 65px;
+  border: 1px solid rgb(56, 56, 58);
+  background-color: #e1e1e1;
+}
+.mike {
+  background-color: #e1e1e1;
+  margin-left: 20px;
+  height: 40px;
+  width: 40px;
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 6px;
+}
+.right_section {
+  display: flex;
+
+  justify-content: space-between;
+  height: 46px;
+  width: 300px;
+}
+/* lower section work  */
+.lower_section {
+  justify-content: space-evenly;
+}
+button {
+  height: 32px;
+  border-radius: 18px;
+  padding-left: 8px;
+  padding-right: 8px;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin: 7px;
+  border: 2px;
+}
+/* right container work  */
+
+.right_container {
+  height: 600px;
+
+  width: 68px;
+  gap: 15px;
+  padding: 5px 10px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main_container {
+  width: 90em;
+  height: 100vh;
+  justify-content: space-between;
+}
+body {
+  display: flex;
+}
+.front_container {
+  box-sizing: border-box;
+  flex-direction: row-reverse;
+  display: flex;
+  height: 100vh;
+  margin-top: 10px;
+}
+/* middle main container  */
+.middle_main_container {
+  /* height: 500px; */
+  /* width: 256px; */
+  display: grid;
+  /* grid-template-columns: repeat(3, 1fr); */
+}
+.middle_section_main {
+  display: flex;
+  gap: 40px;
+  height: 80px;
+  padding-top: 10px;
+  /* width: 500px; */
+}
+.middle_middle_section h1 {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.middle_middle_section p {
+  font-size: 12px;
+  font-weight: 600;
+  color: #484848;
+}
+.middle_middle_section span {
+  font-size: 10px;
+  font-weight: 600;
+}
+.box_container {
+  display: flex;
+  flex-direction: column;
+}
+.middle_section_main {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+.left_middle_section img {
+  width: 50px;
+}
+.box_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
